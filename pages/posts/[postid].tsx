@@ -5,11 +5,11 @@ const POST = [{ id: '2' }]
 
 const PostIdPage: NextPage<{ postid: number }> = ({ postid }) => {
   const router = useRouter()
-  // console.log('postid', postid)
   return (
     <div>
-      <h1>Page id post</h1>
+      <h1>Page id post stash 2</h1>
       <p>query:{JSON.stringify(router.query)}</p>
+      <p>query: {router.query.postid}</p>
     </div>
   )
 }
