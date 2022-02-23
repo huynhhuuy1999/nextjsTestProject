@@ -1,8 +1,8 @@
-import { Layout } from '../../components'
+import { Layout } from '@/components/Layout'
 
 const EventPage = () => {
   return (
-    <Layout>
+    <Layout title="Specify event">
       <h1>Specify event page</h1>
     </Layout>
   )

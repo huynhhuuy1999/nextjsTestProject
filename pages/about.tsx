@@ -1,8 +1,8 @@
-import { Layout } from '../components'
+import { Layout } from '@/components/Layout'
 
 const About = () => {
   return (
-    <Layout>
+    <Layout title="About">
       <h1>About</h1>
     </Layout>
   )
